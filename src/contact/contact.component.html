@@ -1,0 +1,42 @@
+<div class="contact ">
+    <div class="container">
+        <h1 class="fw-bolder">CONTACT SECTION</h1>
+        <div class="icon mt-1"><i class="fa-solid fa-star"></i></div>
+        <div class="inputs d-flex justify-content-center align-items-center flex-column">
+
+            <div class="username w-100 position-relative ">
+                <label [class]="{
+                    'hidden-label':flags.username,
+                    'visible-label':!flags.username
+                }" 
+                 class="position-absolute  " for="username">userName</label>
+                <input (input)="typing('username', $event)" class="w-50 mt-5 p-2 " type="text" placeholder="userName " id="username">
+            </div>
+
+            <div class="userage w-100 position-relative ">
+                <label [class]="{
+                    'hidden-label':flags.userage,
+                    'visible-label':!flags.userage
+                }"  class="position-absolute  " for="userage">userAge</label>
+                <input (input)="typing('userage',$event)" class="w-50 mt-5 p-2 " type="text" placeholder="userAge " id="userage">
+            </div>
+
+            <div class="useremail w-100 position-relative ">
+                <label [class]="{
+                    'hidden-label':flags.useremail,
+                    'visible-label':!flags.useremail
+                }" class="position-absolute " for="useremail">userEmail</label>
+                <input (input)="typing('useremail' ,$event)" class="w-50 mt-5 p-2 " type="text" placeholder="useremail " id="useremail">
+            </div>
+
+            <div class="userpassword w-100 position-relative ">
+                <label [class]="{
+                    'hidden-label':flags.userpass,
+                    'visible-label':!flags.userpass
+                }" class="position-absolute  " for="userpassword">userPassword</label>
+                <input (input)="typing('userpass' ,$event)" class="w-50 mt-5 p-2 " type="password" placeholder="userPassword " id="userpasword">
+            </div>
+        </div>
+        <button class="w-25 mt-5 p-1">Send Message</button>
+    </div>
+</div>

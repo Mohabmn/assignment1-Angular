@@ -1,0 +1,32 @@
+.footer{
+    background-color: #2C3E50;
+    color: white;
+}
+.copyrights{
+    background-color: #1A252F;
+    color: white;
+}
+.facebook-icon{
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.twitter-icon{
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.linkedin-icon{
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.browser-icon{
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+.avatar-image{
+    width: 250px;
+}
+.icon{
+    position: relative;
+}
+.icon::before{
+    content: '';
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: white;
+    position:absolute;
+    bottom: 9px;
+    left: 30px;
+}
+.icon::after{
+    content: '';
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: white;
+    position:absolute;
+    bottom: 9px;
+    right: 30px;
+}
+.home{
+    background-color: #1ABC9C;
+    color: white;
+    margin-top: 90px;
+}
